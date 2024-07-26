@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "examen",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --watch src/swagger.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.10.3",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
